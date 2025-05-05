@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compass Mobile Application Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #2980b9;
+        }
+        h4 {
+            color: #16a085;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .persona-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .feature-list {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Compass Mobile Application Documentation</h1>
+
+    <h2>Overview</h2>
+    <p>Compass is a comprehensive mobile application designed for educational institutions, providing different interfaces and functionalities for four distinct user personas. The application is built using React Native, ensuring cross-platform compatibility for both iOS and Android devices.</p>
+
+    <h2>Technology Stack</h2>
+    <ul>
+        <li>Frontend: React Native</li>
+        <li>State Management: Redux</li>
+        <li>Navigation: React Navigation</li>
+        <li>API Integration: Axios</li>
+        <li>Styling: Custom Theme System</li>
+    </ul>
+
+    <h2>User Personas and Features</h2>
+
+    <div class="persona-section">
+        <h3>1. Student Persona</h3>
+        <h4>Accessible Pages:</h4>
+        
+        <div class="feature-list">
+            <h4>Home Dashboard</h4>
+            <ul>
+                <li>Personalized view of academic information</li>
+                <li>Quick access to important features</li>
+                <li>Notifications and announcements</li>
+            </ul>
+
+            <h4>TimeTable</h4>
+            <ul>
+                <li>View daily and weekly class schedules</li>
+                <li>Period-wise subject allocation</li>
+                <li>Teacher information for each subject</li>
+            </ul>
+
+            <h4>Attendance</h4>
+            <ul>
+                <li>View personal attendance records</li>
+                <li>Attendance percentage calculation</li>
+                <li>Subject-wise attendance breakdown</li>
+            </ul>
+
+            <h4>Leave Request</h4>
+            <ul>
+                <li>Submit leave applications</li>
+                <li>Track leave request status</li>
+                <li>View leave history</li>
+            </ul>
+
+            <h4>Answer Sheets</h4>
+            <ul>
+                <li>Access to exam answer sheets</li>
+                <li>View teacher comments and feedback</li>
+                <li>Download capability for offline access</li>
+            </ul>
+
+            <h4>Marksheet</h4>
+            <ul>
+                <li>View examination results</li>
+                <li>Subject-wise mark breakdown</li>
+                <li>Performance analytics and progress tracking</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="persona-section">
+        <h3>2. Teacher Persona</h3>
+        <h4>Accessible Pages:</h4>
+        
+        <div class="feature-list">
+            <h4>Home Dashboard</h4>
+            <ul>
+                <li>Class overview and schedules</li>
+                <li>Pending tasks and notifications</li>
+                <li>Quick access to teaching tools</li>
+            </ul>
+
+            <h4>Attendance Entry</h4>
+            <ul>
+                <li>Mark student attendance</li>
+                <li>View class attendance statistics</li>
+                <li>Generate attendance reports</li>
+            </ul>
+
+            <h4>Mark Entry</h4>
+            <ul>
+                <li>Input student examination marks</li>
+                <li>Grade assignments and tests</li>
+                <li>Performance analysis tools</li>
+            </ul>
+
+            <h4>Homework Upload</h4>
+            <ul>
+                <li>Assign homework and assignments</li>
+                <li>Set submission deadlines</li>
+                <li>Track student submissions</li>
+            </ul>
+
+            <h4>Leave Approval</h4>
+            <ul>
+                <li>Review student leave requests</li>
+                <li>Approve/reject applications</li>
+                <li>Leave history management</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="persona-section">
+        <h3>3. Administrator Persona</h3>
+        <h4>Accessible Pages:</h4>
+        
+        <div class="feature-list">
+            <h4>Home Dashboard</h4>
+            <ul>
+                <li>Institution-wide analytics</li>
+                <li>System notifications</li>
+                <li>Quick access to administrative tools</li>
+            </ul>
+
+            <h4>Admission Management</h4>
+            <ul>
+                <li>Process new admissions</li>
+                <li>Student database management</li>
+                <li>Document verification system</li>
+            </ul>
+
+            <h4>Staff Management</h4>
+            <ul>
+                <li>Teacher allocation</li>
+                <li>Staff attendance tracking</li>
+                <li>Performance monitoring</li>
+            </ul>
+
+            <h4>Support Ticket System</h4>
+            <ul>
+                <li>Handle technical issues</li>
+                <li>Track request status</li>
+                <li>Resolution management</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="persona-section">
+        <h3>4. Parent Persona</h3>
+        <h4>Accessible Pages:</h4>
+        
+        <div class="feature-list">
+            <h4>Home Dashboard</h4>
+            <ul>
+                <li>Child's academic overview</li>
+                <li>Important notifications</li>
+                <li>Fee payment status</li>
+            </ul>
+
+            <h4>Academic Progress</h4>
+            <ul>
+                <li>View attendance records</li>
+                <li>Access mark sheets</li>
+                <li>Track homework completion</li>
+            </ul>
+
+            <h4>Communication</h4>
+            <ul>
+                <li>Teacher communication channel</li>
+                <li>View school announcements</li>
+                <li>Parent-teacher meeting scheduling</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Common Features Across Personas</h2>
+
+    <h3>1. Authentication System</h3>
+    <ul>
+        <li>Secure login/logout functionality</li>
+        <li>Role-based access control</li>
+        <li>Password management</li>
+        <li>Session handling</li>
+    </ul>
+
+    <h3>2. Profile Management</h3>
+    <ul>
+        <li>View and edit personal information</li>
+        <li>Change password functionality</li>
+        <li>Profile picture management</li>
+        <li>Notification preferences</li>
+    </ul>
+
+    <h3>3. Support System</h3>
+    <ul>
+        <li>Technical support ticket creation</li>
+        <li>Query resolution tracking</li>
+        <li>FAQ access</li>
+        <li>Help documentation</li>
+    </ul>
+
+    <h2>Technical Architecture</h2>
+
+    <h3>1. Component Structure</h3>
+    <ul>
+        <li>Reusable UI components</li>
+        <li>Custom form elements</li>
+        <li>Data visualization components</li>
+        <li>Navigation components</li>
+    </ul>
+
+    <h3>2. State Management</h3>
+    <ul>
+        <li>Centralized Redux store</li>
+        <li>Action creators for API calls</li>
+        <li>Reducers for state updates</li>
+        <li>Persistent storage integration</li>
+    </ul>
+
+    <h3>3. API Integration</h3>
+    <ul>
+        <li>RESTful API consumption</li>
+        <li>Error handling</li>
+        <li>Data caching</li>
+        <li>Offline support</li>
+    </ul>
+
+    <h3>4. Security Features</h3>
+    <ul>
+        <li>Encrypted data transmission</li>
+        <li>Secure storage of sensitive information</li>
+        <li>Session management</li>
+        <li>Input validation</li>
+    </ul>
+
+    <h2>Mobile-Specific Features</h2>
+
+    <h3>1. Responsive Design</h3>
+    <ul>
+        <li>Adaptive layouts</li>
+        <li>Cross-platform compatibility</li>
+        <li>Device-specific optimizations</li>
+    </ul>
+
+    <h3>2. Native Capabilities</h3>
+    <ul>
+        <li>Push notifications</li>
+        <li>File system access</li>
+        <li>Camera integration</li>
+        <li>Location services</li>
+    </ul>
+
+    <h3>3. Performance Optimization</h3>
+    <ul>
+        <li>Lazy loading</li>
+        <li>Image optimization</li>
+        <li>Cache management</li>
+        <li>Memory optimization</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>The Compass mobile application provides a comprehensive solution for educational institutions, effectively serving the needs of students, teachers, administrators, and parents through a well-organized, feature-rich platform. The application's modular architecture ensures scalability and maintainability, while its intuitive interface provides an excellent user experience across all personas.</p>
+</body>
+</html>
